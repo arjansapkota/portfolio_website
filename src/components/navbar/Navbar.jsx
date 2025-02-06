@@ -21,7 +21,7 @@ const Navbar = () => {
         </motion.span>
 
         <div className="social">
-          <a href="https://www.facebook.com/arjan.sapkota/"><img src="/facebook.png" alt=""/></a>
+          <a href="https://www.github.com/arjansapkota/"><img src="/github.webp" alt=""/></a>
           <a href="https://www.instagram.com/xpkt_arzan_/"><img src="/instagram.png" alt=""/></a>
           <a href="http://www.youtube.com/@rzn-m10"><img src="/youtube.png" alt=""/></a>
           <a href="https://www.linkedin.com/in/arjan-sapkota-a06129279"><img src="/linkedin.png" alt=""/></a>                
