@@ -1,0 +1,123 @@
+.portfolio {
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .textContainer {
+        flex: 1;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p {
+            font-weight: 200;
+            font-size: 20px;
+            color: gray;
+            text-align: right;
+        }
+
+        hr {
+            width: 500px;
+            border: none;
+            border-top: 0.5px solid gray;
+        }
+    }
+
+    .titleContainer {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            img {
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                object-fit: cover;
+            }
+
+            h1 {
+                font-size: 96px;
+                font-weight: 100;
+            }
+
+            button {
+                width: 280px;
+                height: 80px;
+                border-radius: 50px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .listContainer {
+        flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+
+        .box {
+            padding: 50px;
+            border: 0.5px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            line-height: 2.2; // Increased spacing between lines
+            font-size: 22px; // Bigger text size
+            transform: translateY(-20px); // Move section slightly upwards
+
+            h2 {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            button {
+                padding: 10px;
+                background-color: orange;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        // Adjusting the experience text specifically
+        .experience-text {
+            position: relative;
+            top: -50px; // Adjust this value to move it further upwards
+        }
+    }
+
+    .skills-logos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+
+        .skill-logo {
+            width: 60px;
+            height: 60px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            filter: drop-shadow(0px 0px 5px rgba(255, 165, 0, 0.5));
+
+            &:hover {
+                transform: scale(1.1);
+                filter: drop-shadow(0px 0px 15px rgba(255, 165, 0, 1));
+            }
+        }
+    }
+}
