@@ -47,7 +47,7 @@ const Hero = () => {
             initial="initial" 
             animate="animate">
                 <motion.h2 variants={textVariants}>ARJAN SAPKOTA</motion.h2>
-                <motion.h1 variants={textVariants}>Computer Engineering Undergraduate</motion.h1>
+                <motion.h1 variants={textVariants}>Computer Engineer</motion.h1>
                 <motion.div variants={textVariants} className="buttons">
                     {/* <motion.button variants={textVariants}>See the latest works</motion.button>
                     <motion.button variants={textVariants}>Get in touch</motion.button> */}
@@ -65,7 +65,7 @@ const Hero = () => {
         variants={sliderVariants}
         initial="initial"
         animate="animate">
-            AI/ML Enthusiast Computer Engineering Undergraduate
+            AI/ML Enthusiast Computer Engineer
         </motion.div>
         <div className="imageContainer">
             {/* <img src="/hero.png" alt="" /> */}
